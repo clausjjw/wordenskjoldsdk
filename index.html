@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Claus’ Ølsmagninger</title>
+  <meta name="description" content="Smag, lær og oplev øl med Claus – fra klassikere til sjældne perler.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="#om">Om</a>
+      <a href="#events">Events</a>
+      <a href="#book">Book</a>
+      <a href="#galleri">Galleri</a>
+      <a href="#kontakt" class="cta">Kontakt</a>
+    </nav>
+    <div class="hero-inner">
+      <h1>Claus’ Ølsmagninger</h1>
+      <p>Du får ikke bare en øl – du får en historie. Jeg guider dig gennem smag, duft og kultur, så hver øl bliver en oplevelse.</p>
+      <a href="#book" class="btn">Book en smagning</a>
+    </div>
+    <div class="hero-image" role="img" aria-label="Stemningsfuldt øl-bord med glas og flasker"></div>
+  </header>
+
+  <main>
+    <section id="om" class="section">
+      <div class="container">
+        <h2>Om smagningerne</h2>
+        <p>Jeg samler klassikere og sjældne perler, og binder dem sammen med historier fra bryggerier, råvarer og traditioner. Formatet tilpasses publikum – fra intro-aftener til nørdede temalinjer.</p>
+        <ul class="features">
+          <li><strong>Antal øl:</strong> 6–8 smagsprøver</li>
+          <li><strong>Varighed:</strong> 90–120 minutter</li>
+          <li><strong>Temaer:</strong> IPA, Belgisk, Barley Wine, Mørke lagre, Dansk mikrobryg</li>
+          <li><strong>Form:</strong> Historier, humor og sanselig formidling</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="events" class="section alt">
+      <div class="container">
+        <h2>Kommende events</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Belgiske klassikere</h3>
+            <p><strong>Dato:</strong> 12. januar • <strong>Sted:</strong> Ringsted</p>
+            <p>Trappist, lambic og gyldne stærke ales – kultur og karakter.</p>
+            <a href="#kontakt" class="link">Tilmeld</a>
+          </article>
+          <article class="card">
+            <h3>IPA through the ages</h3>
+            <p><strong>Dato:</strong> 26. januar • <strong>Sted:</strong> Roskilde</p>
+            <p>Fra britisk bitter til moderne humlebomber.</p>
+            <a href="#kontakt" class="link">Tilmeld</a>
+          </article>
+          <article class="card">
+            <h3>Barley Wine & venner</h3>
+            <p><strong>Dato:</strong> 9. februar • <strong>Sted:</strong> København</p>
+            <p>Langsom nydelse, lagring og dessert-parringer.</p>
+            <a href="#kontakt" class="link">Tilmeld</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="book" class="section">
+      <div class="container">
+        <h2>Book Claus til din smagning</h2>
+        <p>Virksomheder, foreninger og private kan få skræddersyede aftener. Jeg medbringer øl, glasliste og materiale. Priser afhænger af tema og antal gæster.</p>
+        <div class="packages">
+          <div class="package">
+            <h3>Intro – 6 øl</h3>
+            <p>Balanceret rejse gennem stilarter. Perfekt til teambuilding.</p>
+          </div>
+          <div class="package">
+            <h3>Temaaften – 8 øl</h3>
+            <p>Dybdegående nørderi med historier, råvarer og bryggerprofiler.</p>
+          </div>
+          <div class="package">
+            <h3>Eksklusiv</h3>
+            <p>Sjældne flasker og lagrede øl. Begrænset antal pladser.</p>
+          </div>
+        </div>
+        <a href="#kontakt" class="btn">Forespørg booking</a>
+      </div>
+    </section>
+
+    <section id="galleri" class="section alt">
+      <div class="container">
+        <h2>Galleri</h2>
+        <div class="gallery">
+          <img src="images/smagning1.jpg" alt="Smagning – glade gæster og ølglas">
+          <img src="images/smagning2.jpg" alt="Flight af øl med noter">
+          <img src="images/smagning3.jpg" alt="Detalje af etiketter og humle">
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p>Fortæl kort om dit arrangement, antal gæster og ønsket tema. Jeg vender tilbage hurtigst muligt.</p>
+        <form id="contact-form">
+          <div class="grid">
+            <label>
+              Navn
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Telefon
+              <input type="tel" name="phone" />
+            </label>
+            <label class="full">
+              Besked
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+          </div>
+          <button type="submit" class="btn">Send forespørgsel</button>
+          <p id="form-status" class="status" aria-live="polite"></p>
+        </form>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© Claus’ Ølsmagninger • Ringsted, Region Sjælland</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
